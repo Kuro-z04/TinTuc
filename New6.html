@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>ASM WEB1013 - Chi tiết tin tức</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    header {
+      background-color: #e0f7fa;
+    }
+    .nav-container {
+      background-color: #1e1e72;
+      padding: 10px;
+    }
+    .nav-container ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 10px;
+    }
+    .nav-container ul li {
+      display: inline;
+    }
+    .nav-container .auth-links {
+      margin-left: auto;
+    }
+    .nav-container a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+    .nav-container a:hover {
+      background-color: #1e1e72;
+    }
+    .blue-text {
+      color: #1e1e72;
+    }
+    .center-text {
+      text-align: center;
+    }
+    .blue-box {
+      background-color: #ffffff;
+      color: rgb(22, 19, 19);
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .blue-box h3 {
+      margin-top: 0;
+    }
+    .logo {
+      background-color: white;
+    }
+    .news-detail {
+      text-align: justify;
+    }
+    .news-detail p {
+      margin: 0;
+      padding: 0;
+    }
+    .news-title, .news-meta {
+      text-align: center;
+    }
+    .author {
+      text-align: right;
+      margin-top: 20px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo center-text">
+      <h1 class="blue-text">ASM WEB1013</h1>
+      <p class="blue-text">Kiến thức - Kinh nghiệm - Hỏi đáp</p>
+    </div>
+    <div class="nav-container">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Công nghệ</a></li>
+          <li><a href="#">Sản phẩm</a></li>
+          <li><a href="#">Số hóa</a></li>
+          <li><a href="#">Tech Award</a></li>
+        </ul>
+        <div class="auth-links">
+          <a href="#">Đăng nhập</a> | <a href="#">Đăng ký</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="container detail-layout">
+    <!-- Nội dung bài viết -->
+    <article class="news-detail blue-box">
+      <h2 class="news-title">Công ty ChatGPT thu hút 400 triệu người dùng hàng tuần</h2>
+      <p class="news-meta">Thứ sáu, 21/2/2025, 07:55 (GMT+7)</p>
+      <p>OpenAI cho biết lượng truy cập các nền tảng của công ty đang tăng lên nhanh chóng, cán mốc 400 triệu người dùng hàng tuần vào tháng 2, tăng 33% so với tháng 12/2024.</p>
+      <p>Phát ngôn viên OpenAI chia sẻ với Reuters rằng số người dùng hàng tuần của công ty đã tăng 100 triệu từ mức 300 triệu vào tháng cuối năm 2024. Trong đó, người dùng doanh nghiệp trả phí cũng vượt 2 triệu trong tháng 2, nhân đôi so với tháng 9/2024. Lý do là nhiều nhân viên sử dụng ChatGPT cá nhân và sau đó đề xuất công ty triển khai công cụ này.</p>
+      <p>Theo Giám đốc vận hành Brad Lightcap của OpenAI, mức tăng trưởng này diễn ra tự nhiên khi ChatGPT trở nên hữu ích và quen thuộc hơn với người dùng toàn cầu. "Mọi người nghe về nó qua truyền miệng, thấy được lợi ích và thấy bạn bè sử dụng", ông nói trên CNBC.</p>
+
+      <div class="image-container">
+        <img src="images/chatgpt.jpg" alt=" Công ty ChatGPT thu hút 400 triệu người dùng hàng tuần" class="article-image">
+        <div class="image-caption">
+          Giao diện website OpenAI
+          <span class="image-credit">Ảnh: Bảo Lâm</span>
+        </div>
+      </div>
+
+      <div class="paragraph">
+        <p>OpenAI hiện đối mặt với sự cạnh tranh của đối thủ mới nổi DeepSeek. Công ty Trung Quốc khuấy đảo thị trường từ cuối tháng 1, khiến cổ phiếu nhiều doanh nghiệp Mỹ liên quan tới AI sụt giảm mạnh. Trong đó, Nvidia mất 600 tỷ USD giá trị sau khi DeepSeek nổi lên. OpenAI nói có dấu hiệu DeepSeek thu thập dữ liệu mô hình của mình không hợp pháp nhưng cho biết không khởi kiện.</p>
+        <p>"DeepSeek là bằng chứng cho thấy AI đi vào nhận thức của công chúng ra sao, điều không thể hình dung được cách đây hai năm. Đây là lúc cho thấy những mô hình này đang trở nên mạnh mẽ thế nào và mọi người thực sự quan tâm đến mức nào", Lightcap nhận định.</p>
+        <p>Ngoài DeepSeek, OpenAI cũng gặp rắc rối về pháp lý vì Elon Musk kiện công ty đi chệch hướng mục đích ban đầu khi chuyển sang hoạt động vì lợi nhuận. Ông cùng nhóm nhà đầu tư đã đề nghị mua tài sản phi lợi nhuận của OpenAI với giá 97,4 tỷ USD nhưng hội đồng quản trị OpenAI từ chối, cho rằng đây không phải một đề nghị thực sự mà chỉ để phá rối. "Những con số nói lên tất cả. Chúng tôi cố gắng minh bạch về lập trường của mình. Musk là một đối thủ cạnh tranh. Ông ấy đang cạnh tranh và đó là một cách cạnh tranh không chính thống", Lightcap nhận xét.</p>
+      </div>
+      <p class="author">Huy Đức (theo CNBC, Reuters)</p>
+    </article>
+
+    <!-- Cột phải (Sidebar) -->
+    <aside class="sidebar">
+      <div class="about blue-box">
+        <h3>Giới thiệu</h3>
+        <!-- Ví dụ chèn video iframe (YouTube) -->
+        <iframe width="100%" height="200" src="https://www.youtube.com/embed/FN7ALfpGxiI" 
+                title="YouTube video" frameborder="0" allowfullscreen>
+        </iframe>
+        <p>ASM WEB1013 Assignment môn: Xây dựng website</p>
+      </div>
+      <div class="follow-me blue-box">
+        <h3>Follow Me</h3>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+    </div>
+    
+      <div class="contact blue-box">
+        <h3>Liên hệ</h3>
+        <p>Điện thoại: 0987654321</p>
+        <p>Email: web1013@dntet.com</p>
+      </div>
+    </aside>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Website được nhiều người xem nhất - Thuộc khoa CNTT</p>
+  </footer>
+  
+</body>
+</html>
